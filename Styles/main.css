@@ -1,0 +1,457 @@
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://wallpaperaccess.com/full/826921.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.background-main {
+  width: 100%;
+  height: 100vh;
+  background-color: #0000005a;
+}
+.main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 5%;
+  bottom: 9%;
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(to top, #202c4f,  white ); /* Gradient colors */
+  -webkit-background-clip: text; /* Apply gradient as text fill for WebKit browsers */
+  background-clip: text; /* Apply gradient as text fill for non-WebKit browsers */
+  color: transparent; /* Make text transparent */
+   
+}
+.main-title #reserve-line {
+  font-size: 25px;
+  margin-left: -120px;
+}
+.main-title #book-line {
+  font-size: 50px;
+  font-weight: 700;
+}
+.main-title .i {
+  font-size: 46px;
+  
+}
+.logos {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+}
+.logos .i {
+  font-size: 30px;
+  margin-top: 20px;
+  color: white;
+}
+.logos .i-class:hover {
+  cursor: pointer;
+  background-color: #11182e;
+ 
+}
+.logos .whatsapp {
+  background-color: #25D366;
+  padding: 10px 13px;
+  border-radius: 80px;
+  position: relative;
+}
+.logos .whatsapp-hover {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  bottom: 65%;
+  right: 110%;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.4s;
+  background-color: #11182e;
+  padding: 4px 9px;
+  border: none;
+  border-radius: 4px;
+}
+.logos .i-whatsapp:hover .whatsapp-hover {
+  opacity: 1;
+}
+.logos .phone {
+  font-size: 25px;
+  padding: 13px 13px;
+  background-color: #755428;
+  border-radius: 80px;
+}
+.logos .phone-hover {
+  position: absolute;
+  bottom: 30%;
+  right: 117%;
+  font-size: 16px;
+  background-color: #11182e;
+  padding: 4px 9px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.4s;
+} 
+.logos .i-phone:hover  .phone-hover {
+  opacity: 1;
+}
+.logos .calender {
+  padding: 13px 14px;
+  background-color:  #202c4f;
+  font-size: 25px;
+  border-radius: 80px;
+}
+ 
+
+/* main -2  */
+ 
+
+#main-2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://th.bing.com/th/id/R.2937eac55707210de335a1bce6785a63?rik=SCFOoYaw0aTjgw&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f130000%2fvelka%2fwhite-background.jpg&ehk=jDnG9%2fGysqLOrelrn%2ba%2fLdayuLnxrfOnJ2grLBogTvo%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  
+}
+ 
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.best {
+  opacity: 0;
+  transition: opacity 0.8s , margin-left 0.8s;
+  margin-left: -104px;
+}
+.title-section:hover .best {
+  opacity: 1;
+  margin-left: 0;
+}
+.title-section h2 {
+  color: #202c4f;
+  font-size: 26px;
+  
+}
+.title-section p {
+  width: 550px;
+  margin-left: 54px;
+  text-align: justify;
+}
+#main-2 .image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+#main-2 .image-section img {
+  height: 335px;
+}
+
+/*  main - 3 */
+
+.main-3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://th.bing.com/th/id/R.2937eac55707210de335a1bce6785a63?rik=SCFOoYaw0aTjgw&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f130000%2fvelka%2fwhite-background.jpg&ehk=jDnG9%2fGysqLOrelrn%2ba%2fLdayuLnxrfOnJ2grLBogTvo%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.main-3 .title-part {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+.menu-part {
+   display: flex;
+   justify-content: space-around;
+   margin-top: -200px;
+}
+.menu-part #first , #second , #third {
+   
+  width: 450px;
+  height: 300px;
+}
+.menu-part #first {
+  background-image: url('https://as2.ftcdn.net/v2/jpg/05/66/23/95/1000_F_566239544_Yt9Hd62jCV2y1riWWvvAlN7NJ5t6Rv0A.jpg');
+  background-size:  cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.45);
+}
+.menu-part #first   div {
+  width: 450px;
+  height: 300px;
+  background-color: #00000042;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.menu-part #first div #detailss {
+  width: 200px;
+  margin-top: -8px;
+}
+
+.menu-part #first  div #time {
+  font-size: 19px;
+}
+.menu-part #first div button {
+  padding: 3px 7px;
+  border: none;
+  font-weight: 500;
+  margin-top: -7px;
+  border-radius: 4px;
+  transition: color 0.7s , background-color 0.7s;
+}
+.menu-part #first div button:hover {
+  color: white;
+  background-color: black;
+}
+/* second */
+
+.menu-part #second {
+  background-image: url('https://wallpaperaccess.com/full/4622468.jpg');
+  background-size:  cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.45);
+}
+.menu-part #second    div {
+  width: 450px;
+  height: 300px;
+  background-color: #00000042;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.menu-part #second  div #detailss {
+  width: 200px;
+  margin-top: -8px;
+}
+
+.menu-part #second   div #time {
+  font-size: 19px;
+}
+.menu-part #second  div button {
+  padding: 3px 7px;
+  border: none;
+  font-weight: 500;
+  margin-top: -7px;
+  border-radius: 4px;
+  transition: color 0.7s , background-color 0.7s;
+}
+.menu-part #second  div button:hover {
+  color: white;
+  background-color: black;
+}
+/* third */
+
+.menu-part #third {
+  background-image: url('https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/classic-shawarma.jpg');
+  background-size:  cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.45);
+}
+.menu-part #third    div {
+  width: 450px;
+  height: 300px;
+  background-color: #00000042;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.menu-part #third  div #detailss {
+  width: 200px;
+  margin-top: -8px;
+}
+
+.menu-part #third   div #time {
+  font-size: 19px;
+}
+.menu-part #third  div button {
+  padding: 3px 7px;
+  border: none;
+  font-weight: 500;
+  margin-top: -7px;
+  border-radius: 4px;
+  transition: color 0.7s , background-color 0.7s;
+}
+.menu-part #third  div button:hover {
+  color: white;
+  background-color: black;
+}
+
+/* main - 3 ends */
+
+/* main - 4 starts */
+
+.main-4 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://th.bing.com/th/id/R.2937eac55707210de335a1bce6785a63?rik=SCFOoYaw0aTjgw&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f130000%2fvelka%2fwhite-background.jpg&ehk=jDnG9%2fGysqLOrelrn%2ba%2fLdayuLnxrfOnJ2grLBogTvo%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+.main-4  h1 {
+  color: #202c4f;
+}
+.main-4   a {
+  color: black;
+}
+  .second-imp {
+  color: #057c90;
+}
+.line {
+  height: 1.4px;
+  width: 100%;
+  background-color: #202c4f;
+
+}
+.instagram-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 42px 0px;
+}
+.instagram-section h1 {
+  margin-right: 300px;
+  margin-top: 10px;
+}
+.instagram-section h3 {
+  color: #057c90;
+}
+.follow-part {
+  color: #057c90;
+}
+/* main - 4 ends */
+
+/* footer */
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  width: 100%;
+  height: 310px;
+  /* background-image: url('https://th.bing.com/th/id/R.2937eac55707210de335a1bce6785a63?rik=SCFOoYaw0aTjgw&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f130000%2fvelka%2fwhite-background.jpg&ehk=jDnG9%2fGysqLOrelrn%2ba%2fLdayuLnxrfOnJ2grLBogTvo%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat; */
+  background-color: rgba(240, 248, 255, 0.478);
+  color:  #202c4f;
+}
+.background-footer {
+  width: 100%;
+   height: 400px;
+  background-color: #ffffffae;
+}
+.footer-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-1 div {
+  margin-bottom: 17px;
+}
+.footer-1 img {
+  width: 200px;
+}
+.footer-1 i {
+  font-size: 30px;
+  margin-right: 16px;
+  margin-left: 2px;
+  margin-top: 8px;
+  margin: 8p 2px 0px 16px ;
+}
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer-2 p {
+  margin: 10px 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  flex-start;
+}
+.footer-3 p {
+  margin: 10px 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:  flex-start;
+}
+.footer-4 h2 {
+  margin-top: 24px;
+  padding-bottom: 17px;
+ 
+}
+.footer-4  p {
+  margin-top: -37px;
+  width: 270px;
+  text-align: justify;
+}
+.footer-4 input {
+  padding: 4px 10px;
+  width: 280px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid #202c4f;
+   
+}
+.footer-4 input::placeholder {
+  color:#202c4f;
+}
+.footer-4 button {
+  width: 280px;
+  height:40px ;
+  font-size:20px;
+  font-weight: 500;
+  border:1px solid  #202c4f; 
+  color: white;
+  background-color: #202c4f;
+   margin-bottom: 20px;
+   margin-top: -16px;
+   transition: background-color 0.4s , color 0.4s;
+}
+.footer-4 button:hover {
+  background-color: white;
+  color:#202c4f;
+}
